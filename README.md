@@ -1,6 +1,6 @@
 # Selenium Automation Scripts
 
-This repository contains a set of Selenium automation scripts designed to test common web functionalities such as login, form submissions, and UI interactions.
+This repository contains a set of Selenium automation scripts designed to test common web functionalities such as login, form submissions and UI interactions.
 
 ## ✅ Key Features
 
@@ -18,5 +18,5 @@ This repository contains a set of Selenium automation scripts designed to test c
 - Selenium WebDriver  
 - TestNG  
 - ChromeDriver  
-- Maven *(if applicable)*
+- Maven
 
