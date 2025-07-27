@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.AddEmployeeTest">
+        <methods>
+          <include name="testAddEmployee"/>
+          <include name="testLogin"/>
+          <include name="setBrowser"/>
+          <include name="tearDownBrowser"/>
+        </methods>
+      </class> <!-- test.AddEmployeeTest -->
+      <class name="test.AddUserTest">
+        <methods>
+          <include name="tearDownBrowser"/>
+          <include name="setBrowser"/>
+          <include name="testLogin"/>
+          <include name="testAddUser"/>
+        </methods>
+      </class> <!-- test.AddUserTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [mySuite] -->
